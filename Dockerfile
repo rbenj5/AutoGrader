@@ -7,9 +7,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Jupyter Notebook, openai and other useful stuff.
-RUN pip install jupyter
-RUN pip install openai
-RUN pip install scikit-llm
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
 
 # Set up the working directory
 WORKDIR /workspace
