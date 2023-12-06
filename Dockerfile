@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
 # Install Jupyter Notebook, openai and other useful stuff.
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+RUN pip install python-docx
 
 # Set up the working directory
 WORKDIR /workspace
