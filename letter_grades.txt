@@ -1,0 +1,5 @@
+Sample 1 - Letter Grade: B
+Sample 2 - Letter Grade: A
+Sample 3 - Letter Grade: B
+Sample 4 - Letter Grade: B
+Sample 5 - Letter Grade: B
